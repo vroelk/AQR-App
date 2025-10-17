@@ -1,0 +1,39 @@
+// @see - https://www.electron.build/configuration/configuration
+{
+	$schema: 'https://raw.githubusercontent.com/electron-userland/electron-builder/master/packages/app-builder-lib/scheme.json',
+	appId: 'AQR-App',
+	asar: true,
+	productName: 'AQR-App',
+	directories: {
+		output: 'release/${version}'
+	},
+	files: ['dist', 'dist-electron'],
+	mac: {
+		target: ['dmg'],
+		artifactName: '${productName}__Mac-${version}-Installer.${ext}',
+		icon: 'dist/icons/icon512.png'
+	},
+	win: {
+		target: [
+			{
+				target: 'nsis',
+				arch: ['x64']
+			}
+		],
+		artifactName: '${productName}__Windows-${version}-Setup.${ext}',
+		executableName: 'AQR-App.exe',
+		icon: 'dist/icons/icon512.png'
+	},
+	nsis: {
+		oneClick: false,
+		perMachine: false,
+		allowToChangeInstallationDirectory: true,
+		deleteAppDataOnUninstall: false
+	},
+	linux: {
+		target: ['deb', 'AppImage'],
+		artifactName: '${productName}__Linux-${version}.${ext}',
+		executableName: 'AQR-App',
+		icon: 'dist/icons/icon512.png'
+	}
+}

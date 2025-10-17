@@ -1,0 +1,377 @@
+{
+	"en": {
+		"datasets": {
+			"vqr": "VQR",
+			"peqr": "PEQR",
+			"iqr": "IQR",
+			"tqr": "TQR"
+		},
+		"header": {
+			"appName": "AQR App"
+		},
+		"footer": {
+			"vaultPath": "Archive path",
+			"noVaultOpen": "No archive open"
+		},
+		"chart": {
+			"time": "Time",
+			"addComment": "Add comment"
+		},
+		"common": {
+			"close": "Close",
+			"edit": "Edit",
+			"save": "Save",
+			"modus": "Modus",
+			"minutes": "Minutes",
+			"seconds": "Seconds",
+			"new": "New",
+			"create": "Create",
+			"reset": "Fit screen",
+			"scale": "Scale",
+			"duration": "Duration",
+			"sessionDuration": "Session duration",
+			"percentage": "Percentage",
+			"value": "Value",
+			"comment": "Comment",
+			"delete": "Delete",
+			"closeArchive": "Close archive",
+			"add": "Add",
+			"break": "Break"
+		},
+		"editorComments": {
+			"addComment": "Add comment",
+			"previousComment": "Previous comment",
+			"nextComment": "Next comment"
+		},
+		"createPatientForm": {
+			"createPatient": "Create patient",
+			"updatePatient": "Update patient",
+			"firstName": "First name",
+			"lastName": "Last name",
+			"diagnosis": "Diagnosis",
+			"notes": "Notes",
+			"birthDate": "Birth date"
+		},
+		"createSessionForm": {
+			"createSession": "Create session",
+			"patient": "Patient",
+			"name": "Session name",
+			"date": "Date",
+			"duration": "Duration",
+			"notes": "Notes"
+		},
+		"editSession": {
+			"stats": "Stats",
+			"undo": "Undo",
+			"redo": "Redo",
+			"controls": "Controls",
+			"setPoint": "Set point",
+			"createComment": "Create comment",
+			"notes": "Session notes",
+			"zoomIn": "Zoom in",
+			"zoomOut": "Zoom out",
+			"addBreak": "Add break"
+		},
+		"home": {
+			"patients": "Patients",
+			"sessions": "Sessions",
+			"noPatients": "No patients yet",
+			"noPatientsSelected": "No patients selected",
+			"noSessions": "No sessions yet",
+			"confirmDeleteSession": "Are you sure you want to delete this session?",
+			"confirmDeletePatient": "Are you sure you want to delete this patient (this will also delete all sessions associated with this patient)?",
+			"toggleOrder": "Toggle order"
+		},
+		"selectVault": {
+			"selectVault": "Select archive",
+			"createVault": "Create archive"
+		},
+		"ipc": {
+			"VAULTPATHVALID": "Vault path is valid",
+			"VAULTPATHNOTEXISTS": "Vault path does not exist",
+			"VAULTPATHNOTDIRECTORY": "Vault path is not a directory",
+			"VAULTPATHNOTCONTAINSVAULTJSON": "Vault path does not contain a valid _vault.json file",
+			"VAULTPATHNOTCONTAINSPATIENTJSON": "Patient path does not contain a valid _patient.json file",
+			"VAULTPATHNOTEMPTY": "Vault path is not empty",
+			"VAULTPATHNOTSELECTED": "No vault path selected",
+			"VAULTPATHINVALID": "Vault path is invalid",
+			"VAULTCREATED": "Vault created successfully",
+			"PATIENTEXISTS": "Patient already exists",
+			"ERRORCREATEPATIENTPATH": "Error creating patient path",
+			"PATIENTCREATED": "Patient created successfully",
+			"PATIENTNOTEXISTS": "Patient does not exist",
+			"PATIENTPATHNOTDIRECTORY": "Patient path is not a directory",
+			"SESSIONFILENOTVALIDJSON": "Session file is not a valid JSON",
+			"SESSIONFILENOTVALIDSESSIONJSON": "Session file is not a valid _session.json",
+			"SESSIONSRETRIEVED": "Patient sessions retrieved successfully",
+			"SESSIONFILENOTEXISTS": "Session file does not exist",
+			"CREATESESSIONFILEERROR": "Error creating session file",
+			"SESSIONSAVED": "Session saved successfully",
+			"SESSIONPATHNOTFILE": "Patient path is not a file",
+			"SESSIONPATHNOTEXISTS": "Session path does not exist",
+			"SESSIONDELETEERROR": "Error deleting session file",
+			"SESSIONDELETED": "Session deleted successfully",
+			"DIRECTORYSELECTED": "Directory selected",
+			"NAMESREQUIRED": "Patient name, surname and birth date are required",
+			"SESSIONRETRIEVED": "Patient sessions retrieved successfully",
+			"SESSIONCREATED": "Session created successfully",
+			"SESSIONDATARETRIEVED": "Session data retrieved successfully",
+			"SESSIONDATASAVED": "Session data saved successfully",
+			"ERRORUPDATEPATIENTDATA": "Error updating patient data",
+			"PATIENTUPDATED": "Patient data updated successfully",
+			"PATIENTPATHNOTEXISTS": "Patient path does not exist",
+			"PATIENTDELETEERROR": "Error deleting patient",
+			"PATIENTDELETED": "Patient deleted successfully"
+		}
+	},
+	"de": {
+		"datasets": {
+			"vqr": "VBQ",
+			"peqr": "KEBQ",
+			"iqr": "IBQ",
+			"tqr": "TBQ"
+		},
+		"header": {
+			"appName": "AQR App"
+		},
+		"footer": {
+			"vaultPath": "Archiv path",
+			"noVaultOpen": "Kein Ordner geöffnet"
+		},
+		"chart": {
+			"time": "Zeit",
+			"addComment": "Kommentar hinzufügen"
+		},
+		"common": {
+			"close": "Schließen",
+			"edit": "Ändern",
+			"save": "Speichern",
+			"modus": "Modus",
+			"minutes": "Minuten",
+			"seconds": "Sekunden",
+			"new": "Neu",
+			"create": "Erstellen",
+			"reset": "An Fenster anpassen",
+			"scale": "Skala",
+			"duration": "Dauer",
+			"sessionDuration": "Sitzungsdauer",
+			"percentage": "Prozentsatz",
+			"value": "Wert",
+			"comment": "Kommentar",
+			"delete": "Löschen",
+			"closeArchive": "Ordner schließen",
+			"add": "Hinzufügen",
+			"break": "Pause"
+		},
+		"editorComments": {
+			"addComment": "Kommentar hinzufügen",
+			"previousComment": "Vorheriger Kommentar",
+			"nextComment": "Nächster Kommentar"
+		},
+		"createPatientForm": {
+			"createPatient": "Patient hinzufügen",
+			"updatePatient": "Patient aktualisieren",
+			"firstName": "Vorname",
+			"lastName": "Nachname",
+			"diagnosis": "Diagnose",
+			"notes": "Notiz hinzufügen",
+			"birthDate": "Geburtsdatum"
+		},
+		"createSessionForm": {
+			"createSession": "Sitzung erstellen",
+			"patient": "Patient",
+			"name": "Sitzung Name",
+			"date": "Datum",
+			"duration": "Dauer",
+			"notes": "Notiz"
+		},
+		"editSession": {
+			"stats": "Stats",
+			"undo": "Rückgängig",
+			"redo": "Widerholen",
+			"controls": "Optionen",
+			"setPoint": "Markeirung",
+			"createComment": "Kommentar hinzufügen",
+			"notes": "Notizen",
+			"zoomIn": "Hineinzoomen",
+			"zoomOut": "Herauszoomen",
+			"addBreak": "Pause hinzufügen"
+		},
+		"home": {
+			"patients": "Patienten",
+			"sessions": "Sitzungen",
+			"noPatients": "Noch keine Patienten",
+			"noPatientsSelected": "Keine Patienten ausgewählt",
+			"noSessions": "Noch keine Sitzungen",
+			"confirmDeleteSession": "Bist du sicher, dass du diese Sitzung löschen möchtest?",
+			"confirmDeletePatient": "Bist du sicher, dass du diesen Patienten löschen möchtest (dies löscht auch alle Sitzungen, die diesem Patienten zugeordnet sind)?",
+			"toggleOrder": "Reihenfolge umschalten"
+		},
+		"selectVault": {
+			"selectVault": "Ordner auswählen",
+			"createVault": "Ordner erstellen"
+		},
+		"ipc": {
+			"VAULTPATHVALID": "Der Ordnerpfad ist gültig",
+			"VAULTPATHNOTEXISTS": "Der Ordnerpfad ist nicht vorhanden",
+			"VAULTPATHNOTDIRECTORY": "Der Ordnerpfad ist kein Verzeichnis",
+			"VAULTPATHNOTCONTAINSVAULTJSON": "Der Ordnerpfad enthält keine gültige _vault.json-Datei",
+			"VAULTPATHNOTCONTAINSPATIENTJSON": "Der Patientenpfad enthält keine gültige _patient.json-Datei",
+			"VAULTPATHNOTEMPTY": "Der Ordnerpfad ist nicht leer",
+			"VAULTPATHNOTSELECTED": "Kein Ordnerpfad ausgewählt",
+			"VAULTPATHINVALID": "Der Ordnerpfad ist ungültig",
+			"VAULTCREATED": "Ordner erfolgreich erstellt",
+			"PATIENTEXISTS": "Der Patient existiert bereits",
+			"ERRORCREATEPATIENTPATH": "Fehler beim Erstellen des Patientenpfads",
+			"PATIENTCREATED": "Patient erfolgreich erstellt",
+			"PATIENTNOTEXISTS": "Der Patient existiert nicht",
+			"PATIENTPATHNOTDIRECTORY": "Der Patientenpfad ist kein Ordner",
+			"SESSIONFILENOTVALIDJSON": "Die Sitzungsdatei ist kein gültiges JSON",
+			"SESSIONFILENOTVALIDSESSIONJSON": "Die Sitzungsdatei ist keine gültige _session.json-Datei",
+			"SESSIONSRETRIEVED": "Patientensitzungen erfolgreich abgerufen",
+			"SESSIONFILENOTEXISTS": "Die Sitzungsdatei existiert nicht",
+			"CREATESESSIONFILEERROR": "Fehler beim Erstellen der Sitzungsdatei",
+			"SESSIONSAVED": "Sitzung erfolgreich gespeichert",
+			"SESSIONPATHNOTFILE": "Der Patientenpfad ist keine Datei",
+			"SESSIONPATHNOTEXISTS": "Der Sitzungs-Pfad existiert nicht",
+			"SESSIONDELETEERROR": "Fehler beim Löschen der Sitzungsdatei",
+			"SESSIONDELETED": "Sitzung erfolgreich gelöscht",
+			"DIRECTORYSELECTED": "Ordner ausgewählt",
+			"NAMESREQUIRED": "Vor- und Nachname des Patienten sowie Geburtsdatum sind erforderlich",
+			"SESSIONRETRIEVED": "Patientensitzungen erfolgreich abgerufen",
+			"SESSIONCREATED": "Sitzung erfolgreich erstellt",
+			"SESSIONDATARETRIEVED": "Sitzungsdaten erfolgreich abgerufen",
+			"SESSIONDATASAVED": "itzungsdaten erfolgreich gespeichert",
+			"ERRORUPDATEPATIENTDATA": "Fehler beim Aktualisieren der Patientendaten",
+			"PATIENTUPDATED": "Patientendaten erfolgreich aktualisiert",
+			"PATIENTPATHNOTEXISTS": "Patient path does not exist",
+			"PATIENTDELETEERROR": "Error deleting patient",
+			"PATIENTDELETED": "Patient deleted successfully"
+		}
+	},
+	"it": {
+		"datasets": {
+			"vqr": "VQR",
+			"peqr": "PEQR",
+			"iqr": "IQR",
+			"tqr": "TQR"
+		},
+		"header": {
+			"appName": "AQR App"
+		},
+		"footer": {
+			"vaultPath": "Archivio path",
+			"noVaultOpen": "Nessun archivio aperto"
+		},
+		"chart": {
+			"time": "Tempo",
+			"addComment": "Aggiungi commento"
+		},
+		"common": {
+			"close": "Chiudi",
+			"edit": "Modifica",
+			"save": "Salva",
+			"modus": "Modus",
+			"minutes": "Minuti",
+			"seconds": "Secondi",
+			"new": "Nuovo",
+			"create": "Crea",
+			"reset": "Adatta alla finestra",
+			"scale": "Scala",
+			"duration": "Durata",
+			"sessionDuration": "Durata sessione",
+			"percentage": "Percentuale",
+			"value": "Valore",
+			"comment": "Commento",
+			"delete": "Elimina",
+			"closeArchive": "Chiudi archivio",
+			"add": "Aggiungi",
+			"break": "Pausa"
+		},
+		"editorComments": {
+			"addComment": "Aggiungi commento",
+			"previousComment": "Commento precedente",
+			"nextComment": "Commento successivo"
+		},
+		"createPatientForm": {
+			"createPatient": "Crea cartella paziente",
+			"updatePatient": "Aggiorna paziente",
+			"firstName": "Nome",
+			"lastName": "Cognome",
+			"diagnosis": "Diagnosi",
+			"notes": "Note",
+			"birthDate": "Data di nascita"
+		},
+		"createSessionForm": {
+			"createSession": "Crea sessione",
+			"patient": "Paziente",
+			"name": "Nome sessiome",
+			"date": "Data",
+			"duration": "Durata",
+			"notes": "Note"
+		},
+		"editSession": {
+			"stats": "Statistiche",
+			"undo": "Indietro",
+			"redo": "Avanti",
+			"controls": "Opzioni",
+			"setPoint": "Inserisci punto",
+			"createComment": "Crea commento",
+			"notes": "Note",
+			"zoomIn": "Ingrandisci",
+			"zoomOut": "Rimpicciolisci",
+			"addBreak": "Aggiungi pausa"
+		},
+		"home": {
+			"patients": "Pazienti",
+			"sessions": "Sessioni",
+			"noPatients": "Nessun paziente ancora",
+			"noPatientsSelected": "Nessun paziente selezionato",
+			"noSessions": "Nessuna sessione ancora",
+			"confirmDeleteSession": "Sei sicuro di voler eliminare questa sessione?",
+			"confirmDeletePatient": "Sei sicuro di voler eliminare questo paziente (questo eliminerà anche tutte le sessioni associate a questo paziente)?",
+			"toggleOrder": "Inverti ordine"
+		},
+		"selectVault": {
+			"selectVault": "Seleziona cartella",
+			"createVault": "Crea cartella"
+		},
+		"ipc": {
+			"VAULTPATHVALID": "Percorso della cartella è valido",
+			"VAULTPATHNOTEXISTS": "Il percorso della cartella non esiste",
+			"VAULTPATHNOTDIRECTORY": "Il percorso della cartella non è una directory",
+			"VAULTPATHNOTCONTAINSVAULTJSON": "Il percorso della cartella non contiene un file _vault.json valido",
+			"VAULTPATHNOTCONTAINSPATIENTJSON": "Il percorso della cartella del paziente non contiene un file _patient.json valido",
+			"VAULTPATHNOTEMPTY": "Il percorso della cartella non è vuoto",
+			"VAULTPATHNOTSELECTED": "Nessun percorso cartella selezionato",
+			"VAULTPATHINVALID": "Il percorso della cartella non è valido",
+			"VAULTCREATED": "Cartella creata con successo",
+			"PATIENTEXISTS": "Il paziente esiste già",
+			"ERRORCREATEPATIENTPATH": "Errore nella creazione del percorso della cartella del paziente",
+			"PATIENTCREATED": "Paziente creato con successo",
+			"PATIENTNOTEXISTS": "Il paziente non esiste",
+			"PATIENTPATHNOTDIRECTORY": "Il percorso della cartella del paziente non è una directory",
+			"SESSIONFILENOTVALIDJSON": "Il file della sessione non è un JSON valido",
+			"SESSIONFILENOTVALIDSESSIONJSON": "Il file della sessione non è un file _session.json valido",
+			"SESSIONSRETRIEVED": "Sessioni del paziente recuperate con successo",
+			"SESSIONFILENOTEXISTS": "Il file della sessione non esiste",
+			"CREATESESSIONFILEERROR": "Errore nella creazione del file della sessione",
+			"SESSIONSAVED": "Sessione salvata con successo",
+			"SESSIONPATHNOTFILE": "Il percorso della cartella del paziente non è un file",
+			"SESSIONPATHNOTEXISTS": "Il percorso della cartella della sessione non esiste",
+			"SESSIONDELETEERROR": "Errore durante l'eliminazione del file della sessione",
+			"SESSIONDELETED": "Sessione eliminata con successo",
+			"DIRECTORYSELECTED": "Cartella selezionata",
+			"NAMESREQUIRED": "Nome, cognome e data di nascita del paziente sono richiesti",
+			"SESSIONRETRIEVED": "Sessioni del paziente recuperate con successo",
+			"SESSIONCREATED": "Sessione creata con successo",
+			"SESSIONDATARETRIEVED": "Dati della sessione recuperati con successo",
+			"SESSIONDATASAVED": "Dati della sessione salvati con successo",
+			"ERRORUPDATEPATIENTDATA": "Errore nell'aggiornamento dei dati del paziente",
+			"PATIENTUPDATED": "Dati del paziente aggiornati con successo",
+			"PATIENTPATHNOTEXISTS": "Il percorso del paziente non esiste",
+			"PATIENTDELETEERROR": "Errore nell'eliminazione del paziente",
+			"PATIENTDELETED": "Paziente eliminato con successo"
+		}
+	}
+}
