@@ -212,12 +212,12 @@
 	};
 
 	const handleLegendItemClick = (e: MouseEvent, index: number) => {
-		if (e.shiftKey && e.ctrlKey) {
+		if (e.shiftKey && (e.ctrlKey || e.metaKey)) {
 			resetShowDatasets();
 			return;
 		}
 
-		if (e.ctrlKey) {
+		if (e.ctrlKey || e.metaKey) {
 			toggleShowDataset(index);
 			return;
 		}

@@ -170,7 +170,7 @@
 	};
 
 	const handleKeypress = (e: KeyboardEvent) => {
-		if (e.ctrlKey && e.key === 'Enter') {
+		if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
 			handleCreateComment();
 			return;
 		}
